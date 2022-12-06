@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(197, 200, 203);
+}
+
+.interno{
+    /* background-image: url('http://lorempixel.com.br/1500/600/');
+    background-color: white;
+    background-position: center bottom;
+    background-size: cover;
+    height: 70vh; */
+}
+
+.capa{
+    background-image: url('http://lorempixel.com.br/1500/600/');
+    background-color: white;
+    background-position: center bottom;
+    background-size: cover;
+    height: 50vh;
+    margin-bottom: 40px;
+}
+
+.card1{
+    
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.card2{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.texto-centro-imagem {
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 2px #ccc;
+}
+
+button {
+    display: flex;
+    width: 45%;
+    
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.btn.active{
+    color: black !important;
+    background-color: #999;
+}
+
+.btn:hover{
+    color: black !important;
+    background-color: #999;
+}
